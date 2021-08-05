@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&family=Lexend+Deca&display=swap');
+
+body{
+    font-size: 15px;
+    background: hsl(0, 0%, 95%);
+    margin: auto;
+width: 80%;
+height: 90%;
+overflow-x: hidden;
+padding: 10px;
+
+}
+img{
+    margin: 40px;
+   
+   
+}
+p{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 40px;
+}
+h1{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsl(0, 0%, 95%);
+    margin: 40px;
+}
+
+button{
+    background-color: hsl(0, 0%, 95%);
+    padding: 20px 80px;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    margin:60px 20px 20px 20px;
+}
+.orange{
+    background: hsl(31, 77%, 52%);
+    
+}
+
+.cyan{
+    background: hsl(184, 100%, 22%);
+}
+
+.dark{
+    background:hsl(179, 100%, 13%) ;
+}
+
+
+.orange button{
+    color: hsl(31, 77%, 52%);
+    
+}
+
+.cyan button{
+    color: hsl(184, 100%, 22%);
+}
+
+.dark button{
+ color:hsl(179, 100%, 13%) ;
+}
+
+
+
+.orange button:hover{
+    background: hsl(31, 77%, 52%);
+    color:#fff;
+    border: 1px solid #fff;
+    
+}
+
+.cyan button:hover{
+    background: hsl(184, 100%, 22%);
+    color:#fff;
+    border: 1px solid #fff;
+}
+
+.dark button:hover{
+ background:hsl(179, 100%, 13%) ;
+ color:#fff;
+ border: 1px solid #fff;
+
+}
+
+.container{
+    height: 90vh;
+    margin-top: 20px;
+   width: 80vw;
+    display:flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        height: 90vh;
+       width: 80vw;
+        display:flex;
+        flex-direction: column;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .container{
+        height: 90vh;
+       width: 80vw;
+        display:flex;
+        flex-direction: column;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 900px) {
+    .container{
+        height: 90vh;
+       width: 80vw;
+        display:flex;
+        flex-direction: column;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .container{
+        height: 90vh;
+       width: 80vw;
+        display:flex;
+        flex-direction: column;
+    }
+  }

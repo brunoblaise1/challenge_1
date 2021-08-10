@@ -135,3 +135,17 @@ button{
         flex-direction: column;
     }
   }
+  
+@media only screen and (min-width:1201px) and (max-width:1240px) {
+
+button{
+    position: relative;
+    left: -8px;
+    top: -50px;
+}
+.container{
+ height: 88vh;
+ 
+}
+   
+}
